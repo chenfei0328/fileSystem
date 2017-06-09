@@ -1,0 +1,74 @@
+#mainContent {
+	width: 80%;
+	height: 550px;
+	margin: 4% 10%;
+	background: #444;
+	border: 1px solid black;
+	border-radius:5px;	/*圆角*/
+	box-shadow:1px 1px 10px 10px #888; /*阴影*/
+}
+
+#filePath {
+	width: 100%;
+	height: 6%;
+	color: black;
+	background: #CDF;
+	border: 1px solid black;
+	border-radius:5px 5px 0 0;
+}
+
+#fileHead {
+	width: 100%;
+	height: 8%;
+	color: black;
+	border: 1px solid black;
+	background: #DDD; 
+}
+
+#treeMenu {
+	width: 25%;
+	height: 86%;
+	float: left;
+	color: black;
+	font-family: Arial;
+	font-size: 15px;
+	/*overflow: scroll;*/
+	border: 1px solid black;
+	background: white;
+	border-radius:0 0 0 5px;
+}
+
+#fileContent {
+	width: 75%;
+	height: 86%;
+	float: left;
+	/*overflow: scroll;*/
+	border: 1px solid black;
+	border-radius:0 0 5px 0;
+}
+
+#fileText {
+	width: 100%;
+	height: 100%;
+	color: white;
+	font-family: 'SimSun';
+	font-size: 20px;
+	word-break: break-all;
+	border: 0;
+	border-radius:0 0 5px 0;
+	background: #444;
+}
+
+textarea {
+	outline: none;	/*取消聚焦边框*/
+	resize: none;	/*取消拖动放大*/
+}
+
+.file:hover {
+	color: red;
+	cursor: pointer;
+}
+
+.getSelected {
+	color: red;
+}
